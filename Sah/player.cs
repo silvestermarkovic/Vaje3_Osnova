@@ -55,25 +55,8 @@ namespace Sah
         //koda
         public void odstraniFiguro(ChessBoardField ppozicija)
         {
-
-            ChessPiece temp_figura = null;
-            foreach (ChessPiece figura in MojeFigure)
-            {
-                if (figura.Position.X == ppozicija.X && figura.Position.Y == ppozicija.Y)
-                {
-                    temp_figura = figura;
-                }
-            }
-
-            if (temp_figura != null)
-            {
-                Console.WriteLine($"Odstranjena figura igralca {ime} na pozicji: ({ppozicija.X},{ppozicija.Y}).");
-                MojeFigure.Remove(temp_figura);
-            }
-            else
-            {
-                Console.WriteLine($"Igralec nima figure na pozicji: ({ppozicija.X},{ppozicija.Y}).");
-            }
+            
+           //ne moreš odstraniti, ko uporabljaš foreach
 
         }
 

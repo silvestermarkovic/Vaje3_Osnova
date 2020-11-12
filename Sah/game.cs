@@ -53,29 +53,15 @@ namespace Sah
         //ustvarite javno metodo aktivniIgralec(), ki vrača igralca (tip Player), 
         //aktivnega igralca vrača na podlagi sprmenljivke igralecNaPotezi (1 igralec1, 2 igralec2)
         //koda
-        public Player aktivniIgralec()
+      /*  public Player aktivniIgralec()
         {
-            if (igralecNaPotezi == 1)
-            {
-                return igralec1;
-            }
-            else
-            {
-                return igralec2;
-            }
-        }
+            //samo if  igralecNaPotezi
+        }*/
         //analogno ustvarite metodo neaktivniIgralec, ki vrne neaktivnega igralca
-        public Player neaktivniIgralec()
+     /*   public Player neaktivniIgralec()
         {
-            if (igralecNaPotezi == 1)
-            {
-                return igralec2;
-            }
-            else
-            {
-                return igralec1;
-            }
-        }
+           
+        }*/
 
         //Naloga1
         //Ustvarite metodo izrisiStanjeIgre, ki izpiše trenutno stanje na šahovnici (8x8)
